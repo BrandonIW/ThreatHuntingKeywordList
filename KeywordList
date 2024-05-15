@@ -1,0 +1,13 @@
+In Powershell:
+powershell -nop -exec bypass
+-executionpolicy bypass
+DownloadString
+New-Object Net.WebClient
+FromBase64String
+Unicode.GetString
+hidden
+-encodedcommand
+gzipstream
+
+In General:
+mimikatz
