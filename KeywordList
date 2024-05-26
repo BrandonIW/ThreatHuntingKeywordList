@@ -1,6 +1,6 @@
-In Powershell:
 powershell -nop -exec bypass
 -executionpolicy bypass
+-executionpolicy unrestricted
 DownloadString
 New-Object Net.WebClient
 FromBase64String
@@ -8,6 +8,17 @@ Unicode.GetString
 hidden
 -encodedcommand
 gzipstream
-
-In General:
+"sc" command to create a servce that autoloads a malicious DLL
 mimikatz
+bloodhound
+krbtgt (Signs of ticket-based attacks)
+ntds.dit (Dumping of the AD database for offline cracking)
+pwdump
+Executable names that are 1-3 letters long e.g. 1.exe, a.exe. Very commonly seen
+psexesvc.exe
+scrcons.exe
+wmic.exe
+certutil.exe
+rar.exe
+whoami
+wsmprovhost.exe
